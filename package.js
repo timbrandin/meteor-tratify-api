@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'tratify:api',
+  name: 'traitify:api',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: 'Traitify API bundled for Meteor',
