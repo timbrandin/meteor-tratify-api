@@ -16,7 +16,7 @@ Npm.depends({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.addFiles('tratify.js');
+  api.addFiles('tratify.js', 'server');
 
-  api.export('Traitify');
+  api.export('Traitify', 'server');
 });
