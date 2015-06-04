@@ -1,6 +1,6 @@
 Package.describe({
   name: 'traitify:api',
-  version: '0.0.3',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
   summary: 'Traitify API bundled for Meteor',
   // URL to the Git repository containing the source code for this package.
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Npm.depends({
-  "traitify": "1.1.0"
+  "traitify": "2.1.0"
 });
 
 Package.onUse(function(api) {
